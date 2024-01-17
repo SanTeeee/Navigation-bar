@@ -131,17 +131,14 @@ span.ham{
 
 
 .fieldWrap1 input:focus~label,
-.fieldWrap1 input:valid~label{
-    transform: translateY(-30px) scale(.8);
-    transition: .3s;
-    color: #000;
-}
+.fieldWrap1 input:valid~label,
 .fieldWrap2 input:focus~label,
 .fieldWrap2 input:valid~label{
     transform: translateY(-30px) scale(.8);
     transition: .3s;
     color: #000;
 }
+
 
 
 /* .inputDetails input{
