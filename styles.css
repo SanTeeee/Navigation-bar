@@ -56,6 +56,9 @@ ul li a{
 #clickForLogin a{
     margin-left: 0;
 }
+#clickForLogin button, #clickForSignup button{
+    cursor: pointer;
+}
 .loginSignup{
     display: flex;
     margin-left: 5rem;
@@ -91,6 +94,7 @@ span.ham{
     align-items: center;
     width: 100%;
     height: 100%;
+    
 }
 .centerLogin.pop{
     display: flex;
@@ -103,6 +107,7 @@ span.ham{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 20px;
 }
 
 
@@ -161,6 +166,7 @@ span.ham{
 @media (max-width:1100px) {
    header{
     align-items: flex-start;
+    z-index: 1;
    }
     nav{
         display: block;
@@ -168,6 +174,7 @@ span.ham{
     }
     nav.active{
         height: 60vh;
+        
     }
     
     ul{
@@ -176,8 +183,6 @@ span.ham{
         left: -100%;
         width: 100%;
         text-align: center;
-
-        
     }
     ul.active{
         left: 0;
@@ -210,9 +215,11 @@ span.ham{
     nav.active span.ham:nth-child(3){
         transform: translateY(-8px)rotate(-45deg) ;
     }
-    
-}
 
+    .loginDetails{
+        width: 400px;
+    }
+}
 
 
 
@@ -251,7 +258,7 @@ a{
         position: fixed;
         top: 0;
         /* right: -450px; */
-    }   .naver{
+    /* }   .naver{
         flex-direction: column;
         justify-content: flex-start;
     }

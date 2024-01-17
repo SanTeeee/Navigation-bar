@@ -6,11 +6,11 @@ showPopUp.addEventListener("click", function(){
     document.querySelector(".centerLogin").classList.toggle("pop");
 });
 function toggler(){
-    hamburger.classList.toggle("active")
-    ul.classList.toggle("work")
+    hamburger.classList.toggle("active");
+    ul.classList.toggle("active");
    
 }
 
 hamburger.addEventListener("click", toggler);
-
+ul.addEventListener("click", toggler);
 
